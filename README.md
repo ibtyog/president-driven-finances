@@ -4,7 +4,7 @@ Event-study BI pipeline analyzing Donald Trump's Truth Social activity and crypt
 
 ## Repository Layout
 
-- `ingestion/` — Part 1 data collection (Truth Social archive & Binance klines → Bronze Parquet)
+- `ingestion/` — Part 1 data collection (Truth Social archive, Binance klines & Mempool transaction data → Bronze Parquet)
 - `etl/` — Skeleton for future DuckDB/dbt transformations, Great Expectations checks, and Dagster orchestration
 - `ai/` — Skeleton reserved for 1–2 future NLP/ML modules
 - `tests/` — Automated test suite
